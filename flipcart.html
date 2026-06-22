@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flipkart Login Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f0f0f0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:900px;
+    height:550px;
+    background:#fff;
+    display:flex;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+.left{
+    width:35%;
+    background:#2874f0;
+    color:white;
+    padding:40px 30px;
+    position:relative;
+}
+
+.left h1{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.left p{
+    font-size:22px;
+    line-height:1.5;
+    color:#dbdbdb;
+}
+
+.left img{
+    width:220px;
+    position:absolute;
+    bottom:40px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.right{
+    width:65%;
+    padding:50px;
+    position:relative;
+}
+
+.input-box{
+    width:100%;
+    border:none;
+    border-bottom:2px solid #2874f0;
+    outline:none;
+    font-size:18px;
+    padding:10px 0;
+    margin-bottom:50px;
+}
+
+.terms{
+    font-size:14px;
+    color:#777;
+    line-height:1.5;
+}
+
+.terms a{
+    color:#2874f0;
+    text-decoration:none;
+}
+
+.btn{
+    width:100%;
+    background:#fb641b;
+    color:white;
+    border:none;
+    padding:15px;
+    margin-top:25px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.signup{
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.signup a{
+    color:#2874f0;
+    text-decoration:none;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="left">
+        <h1>Login</h1>
+        <p>
+            Get access to your Orders,<br>
+            Wishlist and Recommendations
+        </p>
+
+        <img src="https://rukminim2.flixcart.com/www/210/210/promos/06/04/2020/5e4f4c8b-fd18-4c4f-a4b9-9c1f3b5dff59.png" alt="login">
+    </div>
+
+    <div class="right">
+        <input type="text" class="input-box"
+        placeholder="Enter Email/Mobile number">
+
+        <p class="terms">
+            By continuing, you agree to Flipkart's
+            <a href="#">Terms of Use</a> and
+            <a href="#">Privacy Policy</a>.
+        </p>
+
+        <button class="btn">Request OTP</button>
+
+        <div class="signup">
+            <a href="#">New to Flipkart? Create an account</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
